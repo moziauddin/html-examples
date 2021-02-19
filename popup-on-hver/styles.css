@@ -1,0 +1,28 @@
+branch {
+    position: relative;
+    box-sizing: content-box;
+}
+
+branch ul {
+    display: none;
+    
+}
+
+branch:hover ul {
+    display: block;
+    position: absolute;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-sizing: content-box;
+    background-color: ghostwhite;
+    width: 100%;
+    top: 10px;
+    left: 10px;
+}
+
+body {
+    margin-top: 100px;
+    min-width: 400px !important;
+    min-height: 100vh;
+    background-color: #ffff99;
+}
