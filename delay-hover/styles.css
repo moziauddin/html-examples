@@ -1,0 +1,19 @@
+.box {
+    width: 150px;
+    height: 150px;
+    background: goldenrod;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    transition-delay: 2s;
+  }
+  
+  .box:hover {
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  .uni {
+    transition-duration: 1s;
+    transition-property: background-color;
+  }

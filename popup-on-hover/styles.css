@@ -4,6 +4,7 @@ detail {
 
 detail ul {
     display: none;
+    transition-delay: 2s;
 }
 
 detail:hover ul {
@@ -16,6 +17,7 @@ detail:hover ul {
     position: absolute;
     top: 10px;
     left: 10px;
+    transition-delay: 0s all;
 }
 
 .fa {
