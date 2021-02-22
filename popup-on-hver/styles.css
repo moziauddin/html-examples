@@ -1,27 +1,30 @@
-branch {
+detail {
     position: relative;
-    box-sizing: content-box;
 }
 
-branch ul {
+detail ul {
     display: none;
-    
 }
 
-branch:hover ul {
-    display: block;
-    position: absolute;
+detail:hover ul {
     border: 1px solid gray;
     border-radius: 10px;
-    box-sizing: content-box;
-    background-color: ghostwhite;
-    width: 100%;
+    box-sizing: padding-box;
+    background-color: white;
+    width:inherit;
+    display: block;
+    position: absolute;
     top: 10px;
     left: 10px;
 }
 
+.fa {
+    color: #ff0000;
+}
+
 body {
-    margin-top: 100px;
+    margin-top: 40px;
+    margin-left: 50px;
     min-width: 400px !important;
     min-height: 100vh;
     background-color: #ffff99;
